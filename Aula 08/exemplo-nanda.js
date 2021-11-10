@@ -6,11 +6,13 @@ function podeSubir(altpessoa, acompanhada) {
     switch (altpessoa) {
 
         case (altpessoa < 2.0) && (altpessoa > 1.4):
-            case (acompanhada == true) || (acompanhada == false):
+            case acompanhada: // true
+                // QUE QUANDO A CONDIÇÃO VERDADEIRA
+                // FAZ AÇÃO
                 //console.log("Pode subir");
                 podeSubir = true;
                 break;
-        case (altpessoa < 1.40 && acompanhada == true): // resposta da condição
+        case (altpessoa < 1.40 && acompanhada): // resposta da condição
             console.log("Pode subir");
             break;
 
