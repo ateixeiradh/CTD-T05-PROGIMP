@@ -22,3 +22,27 @@ function converterMaisculas(array){
 console.log(filmes);
 console.log(converterMaisculas(filmes));
 
+// let filmes1 = [];
+let filmes1 = ['star wars', 'matrix', 'robot', 'o Preço do Amanhã', 'a Vida é Bela'];
+let filmes2 = ['star wars', 'matrix'];
+// let filmes2 = ['pantera negra', 'avatar'];
+
+function passagemDeElementos(array1, array2) { // TAMANHO DOS ARRAYS
+
+    // VOU USAR UMA FUNÇÃO
+    // MÉTODO DO ARRAY
+
+    // for (let contador = 0; contador < array1.length; contador++) {
+    //     array1.push(array2[contador].pop())
+    // }
+
+    array1.push(array2.pop().toUpperCase()) 
+    array1.push(array2.pop().toUpperCase()) 
+    array1.push(array2.pop().toUpperCase())
+    array1.push(array2.pop().toUpperCase()) 
+    array1.push(array2.pop().toUpperCase()) 
+    //array de retorno1
+    return array1;
+}
+
+console.log(passagemDeElementos(filmes1, filmes2));
