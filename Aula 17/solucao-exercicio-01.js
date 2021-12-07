@@ -12,7 +12,7 @@ let impares = pares.map(function (numero) {
 
 console.log(impares);
 
-let dobro = pares.map(function (numero) {
+let dobro = pares.forEach(function (i,numero) {
     return numero *2;
 });
 

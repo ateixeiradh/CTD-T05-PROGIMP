@@ -10,7 +10,7 @@ function buscarConta(nome){
         }
     }
 
-    return "Conta não encontrada.";
+    return "CONTA NÃO ENCONTRADA.";
 }
 
 console.log(buscarConta("Bendite Huggett"));
