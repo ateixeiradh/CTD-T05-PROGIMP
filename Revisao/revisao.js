@@ -88,7 +88,17 @@
     // SWITCH CASE
  
 // 6 - STRING E ARRAY
- 
+
+// Referência SPREAD - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+
+let frutasAmarelas=['melão','mamão','limão siciliano']
+let frutasVermelhas=['morango','cereja','maçã red']
+let frutasVerdes=['limão','kiwi','maçã verde']
+
+frutasVermelhas1=frutasVermelhas.map(fruta => fruta.toUpperCase());
+
+let todasFrutas=[...frutasAmarelas,...frutasVermelhas1,...frutasVerdes];
+
 // 7 - ESTRUTURA DE REPETIÇÃO
     // WHILE
     // DO-WHILE
