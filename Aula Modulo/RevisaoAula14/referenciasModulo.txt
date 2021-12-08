@@ -1,0 +1,12 @@
+// Referências de Módulos
+
+// REUSO DE CÓDIGO
+// MANUTENÇÃO
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+// https://github.com/mdn/js-examples/tree/master/modules/basic-modules
+// https://jaimeneeves.medium.com/m%C3%B3dulos-javascript-um-guia-para-iniciantes-143a8bae6c78
+// https://www.alura.com.br/artigos/como-funciona-o-import-e-export-do-javascript
+
+// export - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/export
+// import e export - https://blog.betrybe.com/tecnologia/import-e-export/

@@ -86,18 +86,16 @@
         // (passa a condição, se for verdadeira retorna a primeira, os 2 pontos são o "else/ senão" passa o o falso)
 
     // SWITCH CASE
-
-    
-
+ 
 // 6 - STRING E ARRAY
  
 // 7 - ESTRUTURA DE REPETIÇÃO
     // WHILE
     // DO-WHILE
    // FOR
-                                             
-// 8 - OBJETOS E JSON
+                           
+// 8 - OBJETOS E JSON - aula 13/14
 
-// 9 - MÓDULOS E PACOTES
+// 9 - MÓDULOS E PACOTES - require aula 13/14 e AULA MODULO
 
-// 10 - FUNÇÕES AVANÇADAS
+// 10 - FUNÇÕES AVANÇADAS - aula 16 e 17

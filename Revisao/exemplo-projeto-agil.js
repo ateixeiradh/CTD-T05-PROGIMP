@@ -1,0 +1,1 @@
+// simular um projeto ágil em código JS
